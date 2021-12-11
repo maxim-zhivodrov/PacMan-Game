@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="./jquery-3.4.1.slim.min.js"></script>
+	<script type="text/javascript" src="./app.js"></script>
+	<script type="text/javascript" src="./screen.js"></script>
+	<script type="text/javascript" src="./jquery.validate.js"></script>
+	<script type="text/javascript" src="./ntc.js"></script>
+	<link rel="stylesheet" href="styles.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+	<p style="position: absolute; margin-top: 0px; font-size: 10px;"> <i>Sean Avrutin<br>Maxim Zhivodrov</i></p>
+	<img id="logo" src="Resources/logo.png" height="80" width="260" style="position: absolute; margin-top: -16px;margin-left: 40%;z-index: -1;"/>
+	<div class="pacman">
+		
+		<div class="pacman-top"></div>
+		<div class="pacman-bottom"></div>
+		<div class="feed"></div>
+		
+	</div>
+</head>
+
+<body>
+</br>
+</br>
+
+	<divmenu id='cssmenu' align="center">
+		<ul>
+			<li class='active' id="menuwelcome"><a href='#'>Welcome</a></li>
+			<li id="menureg"><a href='#'>Register</a></li>
+			<li id="menulogin"><a href='#'>Log in</a></li>
+			<li id="menuabout"><a href='#aboutScreen' rel="modal:open">About</a></li>
+		</ul>
+	</divmenu>
+
+	<div class="screen" id='welcomeScreen' align="center">
+		</br>
+		</br>
+		<input type=button class="button" id="loginButton" value="Log in">
+		</br>
+		</br>
+		<input type=button class="button" id="signupButton" value="Sign up">
+	</div>
+
+
+	<div class="screen" id='gameScreen' style="display: none;" align="center">
+		<label for="lblScore">SCORE:</label>
+		<input id="lblScore" type="label" />
+		<label for="lblTime">TIME:</label>
+		<input id="lblTime" type="label" />
+
+		<label for="lblLives">LIVES:</label>
+		<input id="lblLives" type="label" />
+		<div id="game" class="wrapper">
+			</br>
+			<canvas id="canvas" height="600" width="600"></canvas>
+			
+			<div class="bla" style="position: absolute; top:0; left:0; margin-left: 16%; margin-top: 8%;">
+				<output style="font-size:32px;" id="hello"/>Hello,</br>
+				<output style="font-size:32px;" id="showUser"/></br>
+			</div>
+			
+			<div class="restarts" style="position: absolute; top:0; left:0; margin-left: 15%; margin-top: 15%;">
+				<button type="button" class="button" id="restartBut" onclick="restartGame()">Restart</button>
+				</br>
+				</br>
+				<button type="button" class="button" id="newGameBut" onclick="newGame()">New Game</button>
+			</div>
+			
+			<div class="controls" style="position: absolute; top:0; left:0; margin-left: 80%; margin-top: 10%;">
+				<img id="musicIm" src="Resources/musicon.png" height="56" width="56" onclick="musicToggle()">
+				<img id="soundIm" src="Resources/soundon.png" height="42" width="42" onclick="soundToggle()">
+				<fieldset>
+					<label><u>Game Settings:</u></label></br></br>
+					<label for="side_upKey">Up Key:</label>
+					<output id="side_upKey">38</output></br>
+					<label for="side_downKey">Down Key:</label>
+					<output id="side_downKey">40</output></br>
+					<label for="side_rightKey">Right Key:</label>
+					<output id="side_rightKey">39</output></br>
+					<label for="side_leftKey">Left Key:</label>
+					<output id="side_leftKey">37</output></br>
+					<label for="side_balls">Number of balls:</label>
+					<output id="side_balls">50</output></br>
+					<label for="side_ball25">Color of ball25:</label>
+					<output id="side_ball25">#00FF00</output></br>
+					<label for="side_ball15">Color of ball15:</label>
+					<output id="side_ball15">#ff0000</output></br>
+					<label for="side_ball5">Color of ball5:</label>
+					<output id="side_ball5">000000</output></br>
+					<label for="side_duration">Game duration:</label>
+					<output id="side_duration">80</output></br>
+					<label for="side_monsters">Number of monsters:</label>
+					<output id="side_monsters">1</output>
+				</fieldset>
+			</div>
+		</div>
+		<br><br>
+	</div>
+
+	<div class="screen" id='registerScreen' style="display: none;" align="center">
+		</br>
+		</br>
+		<form class="cmxform" id="signupForm" method="get" action="" align="left">
+			<fieldset>
+				<p>
+					<label for="firstname">Firstname</label>
+					<input id="firstname" name="firstname" type="text">
+				</p>
+				<p>
+					<label for="lastname">Lastname</label>
+					<input id="lastname" name="lastname" type="text">
+				</p>
+				<p>
+					<label for="username">Username</label>
+					<input id="username" name="username" type="text">
+				</p>
+				<p>
+					<label for="password">Password</label>
+					<input id="password" name="password" type="password" aria-autocomplete="list">
+				</p>
+				<p>
+					<label for="confirm_password">Confirm password</label>
+					<input id="confirm_password" name="confirm_password" type="password">
+				</p>
+				<p>
+					<label for="email">Email</label>
+					<input id="email" name="email" type="email">
+				</p>
+				<p>
+					<label for="birthday">Birthday:</label>
+					<input type="date" id="birthday" name="birthday">
+				</p>
+				<p>
+					<button id="regSubmit" class="submit" type="submit">submit</button>
+				</p>
+			</fieldset>
+		</form>
+	</div>
+
+	<div class="screen" id='loginScreen' style="display: none; padding-bottom: 20%;" align="center">
+		</br>
+		</br>
+		<form>
+			<div class="container">
+				<label for="tryUsername"><b>Username</b></label>
+				<input id="tryUsername" type="text" placeholder="Enter Username" name="uname" required>
+				</br>
+				</br>
+				<label for="tryPassword"><b>Password</b></label>
+				<input id="tryPassword" type="password" placeholder="Enter Password" name="psw" required>
+
+				</br>
+				</br>
+				<button id="loginSubmit" class="button" type="button">Login</button>
+
+			</div>
+
+		</form>
+	</div>
+
+	<div class="screen" id='optionsScreen' style="display: none;" align="center">
+		</br>
+		<form class="cmxform" id="optionsForm" method="get" action="" align="left">
+			<fieldset>
+				<p>
+					<label for="upKeyIn">UpKey:</label>
+					<input id="upKeyIn" name="upKeyIn" type="text" size="3" onkeydown="upKeyIn.value='';upKeyIn_disp.value=event.keyCode; setSideValues()">
+					<output id="upKeyIn_disp" >38</output>
+				</p>
+				<p>
+					<label for="downKeyIn">DownKey:</label>
+					<input id="downKeyIn" name="downKeyIn" type="text" size="3" onkeydown="downKeyIn.value='';downKeyIn_disp.value=event.keyCode; setSideValues()">
+					<output id="downKeyIn_disp" >40</output>
+				</p>
+				<p>
+					<label for="rightKeyIn">RigthKey:</label>
+					<input id="rightKeyIn" name="rightKeyIn" type="text" size="3" onkeydown="rightKeyIn.value='';rightKeyIn_disp.value=event.keyCode; setSideValues()">
+					<output id="rightKeyIn_disp" >39</output>
+				</p>
+				<p>
+					<label for="leftKeyIn">LeftKey:</label>
+					<input id="leftKeyIn" name="leftKeyIn" type="text" size="3" onkeydown="leftKeyIn.value='';leftKeyIn_disp.value=event.keyCode; setSideValues()">
+					<output id="leftKeyIn_disp" >37</output>
+				</p>
+				<p>
+					<label for="ballNum">Number of balls:</label>
+					<input type="range" name="ballNum" id="ballNum" value="50" min="50" max="90" oninput="ballNum_disp.value = ballNum.value; setSideValues();">
+					<output id="ballNum_disp">50</output>
+				</p>
+				<p>
+					<label for="ball25">25 point balls:</label>
+					<input type="color" id="ball25" name="ball25" value="#00FF00" oninput="setSideValues()">
+				</p>
+				<p>
+					<label for="ball15">15 point balls:</label>
+					<input type="color" id="ball15" name="ball15" value="#ff0000" oninput="setSideValues()">
+				</p>
+				<p>
+					<label for="ball5">5 point balls:</label>
+					<input type="color" id="ball5" name="ball5" value="#000000" oninput="setSideValues()">
+				</p>
+				<p>
+					<label for="duration">Duration:</label>
+					<input id="duration" name="duration" type="range" value="60" min="60" max="250" oninput="duration_disp.value=duration.value;setSideValues();">
+					<output id="duration_disp">60</output>
+					<button id="optionsSubmit" class="button" type="submit" style="position: absolute;margin-left:6%;">Play Game</button>
+
+				</p>
+				<p>
+					<label for="monsterNum">Number of monsters:</label>
+					<input type="range" name="monsterNum" id="monsterNum" value="1" min="1" max="4" oninput="monsterNum_disp.value=monsterNum.value;setSideValues();">
+					<output id="monsterNum_disp">1</output>
+				</p>
+
+				<p>
+					<button id="randomChoise">random</button>
+				</p>
+			</fieldset>
+		</form>
+		<br><br>
+	</div>
+
+	<div id="aboutScreen" class="modal">
+		<p>Our names are, Sean Avrutin and Maxim Zhivodrov.</p>
+		<p>We used two J-Query plugins. For form validation</p>
+		<p>we used jqueryvalidation, and for showing models,</p>
+		<p>we used jQuery-Modal</p>
+		<p>We had little difficulties in the game creation process</p>
+	</div>
+</body>
+
+<footer>
+
+	<p>All rights reserved to Sean Avrutin and Maxim Zhivodrov
+		<br>
+		For technical issues contact us at: <a href="mailto:maximzh@post.bgu.ac.il">maximzh@post.bgu.ac.il</a>
+	 	<a href="mailto:seanav@post.bgu.ac.il">seanav@post.bgu.ac.il</a>
+	</p>
+  </footer>
+
+</html>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="770ab4ef-8294-4f1a-a6d2-6725a1a2d429" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beginning.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/beginning.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blinky.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/blinky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clyde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/clyde.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clyde.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/clyde.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/die.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/die.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eat.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/eat.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eating.short.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/eating.short.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/god.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/god.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/godpush.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/godpush.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/inky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inky.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/inky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/logo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lose.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/lose.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicoff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/musicoff.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/musicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/pinky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinky.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/pinky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/snail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soundoff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/soundoff.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soundon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/soundon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tube.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/tube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winner.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/winner.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winner.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/winner.wav" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aqdoGvH4tgZOL5Vn22rA8h7zze" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hatavot/public/wp-content/themes/neve/SeanCustom.php" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Downloads\Fresh Downloads\PacMan-Game\Resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JS Debugg" type="JavascriptDebugType" uri="file:///$PROJECT_DIR$/index.html">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="770ab4ef-8294-4f1a-a6d2-6725a1a2d429" name="Default Changelist" comment="" />
+      <created>1587467230476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587467230476</updated>
+      <workItem from="1587467231849" duration="79000" />
+      <workItem from="1587467328433" duration="17793000" />
+      <workItem from="1587510827907" duration="7283000" />
+      <workItem from="1587577794225" duration="6441000" />
+      <workItem from="1588417590479" duration="6389000" />
+      <workItem from="1588454090603" duration="917000" />
+      <workItem from="1632244049040" duration="153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587478993547">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587478993547" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588417800304">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588417800304" />
+    <state width="1515" height="134" key="GridCell.Tab.0.bottom" timestamp="1587518142202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587518142202" />
+    <state width="1515" height="134" key="GridCell.Tab.0.center" timestamp="1587518142202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587518142202" />
+    <state width="1515" height="134" key="GridCell.Tab.0.left" timestamp="1587518142202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587518142202" />
+    <state width="1515" height="134" key="GridCell.Tab.0.right" timestamp="1587518142202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587518142202" />
+    <state width="1515" height="134" key="GridCell.Tab.1.bottom" timestamp="1587518142203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587518142203" />
+    <state width="1515" height="134" key="GridCell.Tab.1.center" timestamp="1587518142202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587518142202" />
+    <state width="1515" height="134" key="GridCell.Tab.1.left" timestamp="1587518142202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587518142202" />
+    <state width="1515" height="134" key="GridCell.Tab.1.right" timestamp="1587518142203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587518142203" />
+    <state width="1515" height="134" key="GridCell.Tab.2.bottom" timestamp="1587518142203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587518142203" />
+    <state width="1515" height="134" key="GridCell.Tab.2.center" timestamp="1587518142203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1587518142203" />
+    <state width="1515" height="134" key="GridCell.Tab.2.left" timestamp="1587518142203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1587518142203" />
+    <state width="1515" height="134" key="GridCell.Tab.2.right" timestamp="1587518142203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1587518142203" />
+    <state width="1515" height="134" key="GridCell.Tab.3.bottom" timestamp="1587518142204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587518142204" />
+    <state width="1515" height="134" key="GridCell.Tab.3.center" timestamp="1587518142203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1587518142203" />
+    <state width="1515" height="134" key="GridCell.Tab.3.left" timestamp="1587518142203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1587518142203" />
+    <state width="1515" height="134" key="GridCell.Tab.3.right" timestamp="1587518142204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="134" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1587518142204" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1588418049014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588418049014" />
+    <state x="463" y="10" width="609" height="804" key="find.popup" timestamp="1587583260045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="10" width="609" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587583260045" />
+  </component>
+</project>
